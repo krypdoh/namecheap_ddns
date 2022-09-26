@@ -13,7 +13,7 @@ PASSWORD=xxxxxxxxxxxxxxxxxxxxxxxxxxxx
 # get current assigned IP
 CURRENT_IP=$(curl -s ifconfig.io)
 # get dns assigned IP
-DYN_IP=$( dig +short ftp.krypdoh.com | tail -n1 )
+DYN_IP=$( dig +short ftp.xxxxxxxx.com | tail -n1 )
 echo "The current IP address is:      $CURRENT_IP"
 echo "The DNS assigned IP address is: $DYN_IP"
 
